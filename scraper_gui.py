@@ -106,8 +106,8 @@ class ScraperApp:
     def __init__(self, root):
         self.root = root
         self.root.title("Web Scraper - Review Extractor")
-        self.root.geometry("900x700")
-        self.root.minsize(800, 600)
+        self.root.geometry("900x800")
+        self.root.minsize(800, 700)
         
         # Variables
         self.folder_path = tk.StringVar()
